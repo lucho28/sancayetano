@@ -7,17 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+<header>
         <nav>
             <ul>
                 <li><a href="index.php">Inicio</a></li>
                 <li><a href="metalmecanica.php">Metalmecanica</a></li>
-                <li><a href="">Lacteos</a></li>
+                <li><a href="">Industrializacion Lacteos</a></li>
                 <li><a href="">Agronegocios</a></li>
                 <li><a href="">Multinegocios</a></li>
                 <li><a href="">Hilados y bolsas</a></li>
                 <li><a href="">Materiales - Refrigeracion y congelacion</a></li>
-                <li><a href="">Cambiados desde oficina 2</a></li>
+                <li><a href="">Comercializacion de vehiculos</a></li>
             </ul>
         </nav>
     </header>
