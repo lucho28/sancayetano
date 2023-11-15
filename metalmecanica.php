@@ -13,7 +13,7 @@
             <ul>
                 <li><a href="index.php">Inicio</a></li>
                 <li><a href="metalmecanica.php">Metalmecanica</a></li>
-                <li><a href="">Lacteos</a></li>
+                <li><a href="">Industrializacion Lacteos</a></li>
                 <li><a href="">Agronegocios</a></li>
                 <li><a href="">Multinegocios</a></li>
                 <li><a href="">Hilados y bolsas</a></li>
