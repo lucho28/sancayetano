@@ -1,63 +1,69 @@
 header {
-    position: fixed;
-    background-color: #abcfcf;
-    color: black;
-    line-height: 60px;
-    text-align: center;
-    width: 100%;
-    height: 60px;
-    top: 0;
-    font-family:sans-serif;
-    font-size: 18px;
-    z-index: 2;
-   
-    
+    position: fixed; /* Establece la posición del elemento como fijo con respecto a la ventana de visualización. */
+    background-color: #abcfcf; /* Define el color de fondo del encabezado. */
+    color: grey; /* Establece el color del texto en el encabezado. */
+    line-height: 60px; /* Controla la altura de línea en el encabezado. */
+    text-align: center; /* Alinea el texto en el centro del encabezado. */
+    width: 100%; /* Establece el ancho del encabezado al 100% del ancho de la ventana. */
+    height: 80px; /* Establece la altura del encabezado. */
+    top: 0; /* Fija el encabezado en la parte superior de la ventana. */
+    font-family: sans-serif; /* Define la familia de fuentes para el texto en el encabezado. */
+    font-size: 18px; /* Establece el tamaño de la fuente en el encabezado. */
+    z-index: 2; /* Controla el orden de apilamiento, coloca el encabezado sobre otros elementos. */
 }
 
+/*
 .content {
     padding: 60px 10px;
     margin: auto;
     max-width: 80%;
     width: 100%;
 }
+*/
 
-footer{
-    position: fixed;
-    background-color: #abcfcf;
-    color: black;
-    width: 100%;
-    height: 60px;
-    bottom: 0;
-    z-index: 1;
-    line-height: 60px;
-    text-align: center;
+footer {
+    position: fixed; /* Establece la posición del elemento como fijo con respecto a la ventana de visualización. */
+    background-color: #abcfcf; /* Define el color de fondo del pie de página. */
+    color: black; /* Establece el color del texto en el pie de página. */
+    width: 100%; /* Establece el ancho del pie de página al 100% del ancho de la ventana. */
+    height: 60px; /* Establece la altura del pie de página. */
+    bottom: 0; /* Fija el pie de página en la parte inferior de la ventana. */
+    z-index: 1; /* Controla el orden de apilamiento, coloca el pie de página bajo otros elementos. */
+    line-height: 60px; /* Controla la altura de línea en el pie de página. */
+    text-align: center; /* Alinea el texto en el centro del pie de página. */
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    overflow-y: scroll;
-    font-family: "Times New Roman", Times, serif;
-    line-height: 1.6; /* Ajusta el espaciado entre líneas según tus necesidades */
-    text-align: center;
+    margin: 0; /* Elimina los márgenes predeterminados del cuerpo de la página. */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo de la página. */
+    overflow-y: scroll; /* Añade una barra de desplazamiento vertical si el contenido es más grande que la ventana. */
+    font-family: "Times New Roman", Times, serif; /* Define la familia de fuentes para el cuerpo de la página. */
+    line-height: 1.6; /* Ajusta el espaciado entre líneas según tus necesidades. */
+    text-align: center; /* Alinea el texto en el centro del cuerpo de la página. */
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex; /* Hace que los elementos se alineen horizontalmente */
+    list-style: none; /* Elimina los estilos de viñetas de las listas no ordenadas. */
+    padding: 0; /* Elimina el relleno de la lista no ordenada. */
+    margin: 0; /* Elimina los márgenes de la lista no ordenada. */
+    display: flex;  /*Hace que los elementos de la lista se alineen horizontalmente. */
+
 }
 
 nav li {
-    padding: 10px 20px; /* Ajusta el espaciado entre elementos según tus necesidades */
+    padding: 2px 2px; /* Ajusta el espaciado interno de los elementos de la lista según tus necesidades. */
+    height: 60px;
+    width: 180px; /* O ajusta el valor según sea necesario */
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid black;
 }
 
 nav a {
-    text-decoration: none;
-    color: #fff;
+    text-decoration: none; /* Elimina la decoración de texto subrayado en los enlaces. */
+    color: black; /* Establece el color del texto de los enlaces. */
 }
 
 p {
-    text-align: justify;
+    text-align: justify; /* Justifica el texto en los párrafos. */
 }
