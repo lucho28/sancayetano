@@ -12,15 +12,23 @@ header {
     z-index: 2; /* Controla el orden de apilamiento, coloca el encabezado sobre otros elementos. */
 }
 
+<<<<<<< HEAD
 
+=======
+/*
+>>>>>>> 4adb986484781f40bf8843702238f667a835ca31
 .content {
     padding: 60px 10px;
     margin: auto;
     max-width: 80%;
     width: 100%;
 }
+*/
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4adb986484781f40bf8843702238f667a835ca31
 footer {
     position: fixed; /* Establece la posición del elemento como fijo con respecto a la ventana de visualización. */
     background-color: #abcfcf; /* Define el color de fondo del pie de página. */
@@ -34,6 +42,7 @@ footer {
 }
 
 body {
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
     overflow-y: scroll;
@@ -44,6 +53,14 @@ body {
     background-size: cover;
     background-attachment: fixed; /* Hace que la imagen de fondo sea fija. */
     backdrop-filter: blur(100%);
+=======
+    margin: 0; /* Elimina los márgenes predeterminados del cuerpo de la página. */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo de la página. */
+    overflow-y: scroll; /* Añade una barra de desplazamiento vertical si el contenido es más grande que la ventana. */
+    font-family: "Times New Roman", Times, serif; /* Define la familia de fuentes para el cuerpo de la página. */
+    line-height: 1.6; /* Ajusta el espaciado entre líneas según tus necesidades. */
+    text-align: center; /* Alinea el texto en el centro del cuerpo de la página. */
+>>>>>>> 4adb986484781f40bf8843702238f667a835ca31
 }
 
 nav ul {
@@ -56,7 +73,11 @@ nav ul {
 
 nav li {
     padding: 2px 2px; /* Ajusta el espaciado interno de los elementos de la lista según tus necesidades. */
+<<<<<<< HEAD
     height: 80px;
+=======
+    height: 60px;
+>>>>>>> 4adb986484781f40bf8843702238f667a835ca31
     width: 180px; /* O ajusta el valor según sea necesario */
     line-height: 1.5;
     text-align: center;
