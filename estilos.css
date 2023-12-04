@@ -5,7 +5,7 @@ header {
     line-height: 60px; /* Controla la altura de línea en el encabezado. */
     text-align: center; /* Alinea el texto en el centro del encabezado. */
     width: 100%; /* Establece el ancho del encabezado al 100% del ancho de la ventana. */
-    height: 80px; /* Establece la altura del encabezado. */
+    height: 66px; /* Establece la altura del encabezado. */
     top: 0; /* Fija el encabezado en la parte superior de la ventana. */
     font-family: sans-serif; /* Define la familia de fuentes para el texto en el encabezado. */
     font-size: 18px; /* Establece el tamaño de la fuente en el encabezado. */
@@ -22,15 +22,21 @@ header {
 
 
 footer {
+    
     position: fixed; /* Establece la posición del elemento como fijo con respecto a la ventana de visualización. */
     background-color: #abcfcf; /* Define el color de fondo del pie de página. */
     color: black; /* Establece el color del texto en el pie de página. */
     width: 100%; /* Establece el ancho del pie de página al 100% del ancho de la ventana. */
-    height: 60px; /* Establece la altura del pie de página. */
+    height: 40px; /* Establece la altura del pie de página. */
     bottom: 0; /* Fija el pie de página en la parte inferior de la ventana. */
     z-index: 1; /* Controla el orden de apilamiento, coloca el pie de página bajo otros elementos. */
-    line-height: 60px; /* Controla la altura de línea en el pie de página. */
-    text-align: center; /* Alinea el texto en el centro del pie de página. */
+    /*line-height: 60px;  Controla la altura de línea en el pie de página. */
+    
+     /* Alinea verticalmente el contenido */
+     display: flex;
+     align-items: center;
+    
+    
 }
 
 body {
@@ -56,8 +62,8 @@ nav ul {
 }
 
 nav li {
-    padding: 2px 2px; /* Ajusta el espaciado interno de los elementos de la lista según tus necesidades. */
-    height: 60px;
+    /*padding: 2px 2px;  Ajusta el espaciado interno de los elementos de la lista según tus necesidades. */
+    height: 66px;
     width: 180px; /* O ajusta el valor según sea necesario */
     line-height: 1.5;
     text-align: center;
