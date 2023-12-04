@@ -12,14 +12,14 @@ header {
     z-index: 2; /* Controla el orden de apilamiento, coloca el encabezado sobre otros elementos. */
 }
 
-/*
+
 .content {
     padding: 60px 10px;
     margin: auto;
     max-width: 80%;
     width: 100%;
 }
-*/
+
 
 footer {
     position: fixed; /* Establece la posición del elemento como fijo con respecto a la ventana de visualización. */
