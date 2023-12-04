@@ -80,3 +80,8 @@ nav a {
 p {
     text-align: justify; /* Justifica el texto en los párrafos. */
 }
+
+#logo{
+    width: 60px;
+    height: 899px;
+}
