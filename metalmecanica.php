@@ -10,7 +10,8 @@
   <body class="bg-secondary">
     
   <header>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
         <div class="container-fluid">
             <a class="navbar-brand" id="logo" href="#">
             <img src="img/logo.png" alt="">
@@ -53,11 +54,9 @@
     </nav>
     </div>
     
+    </header>
     <div class="content">
     
-    <img src="img/metalmecanica/fondo.jpg" class="img-fluid" alt="...">
-    
-  
     <h1>Introducción a la Industria Metalmecánica</h1>
 
     <p>
@@ -186,10 +185,37 @@ Desde el año 2000 introdujo a la Argentina los sistemas de caño, siendo los pr
 de madera por productos de caño.
 Hoy en día la empresa ofrece una amplia gama de productos para el cliente ganadero como tranqueras, casillas, paneles y bretes 
 brindando soluciones para el campo. Actualmente también comercializa productos para la industria de la construcción.
-
 </p>
 
-<h4>Sistema curvo</h4>
+<!-- estoy probando un carrusel -->
+<div id="carruseldiv">
+    <div id="carouselMecano" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img id="tamanioimg" src="img/metalmecanica/sistemacurvo.jpg" class="d-block  w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img id="tamanioimg" src="img/metalmecanica/corrales.jpg" class="d-block  w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img id="tamanioimg" src="img/metalmecanica/granescala.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselMecano" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselMecano" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+</div>
+
+
+
+<!-- <h4>Sistema curvo</h4>
 
 <img src="img/metalmecanica/sistemacurvo.jpg" alt="">
 
@@ -199,7 +225,12 @@ brindando soluciones para el campo. Actualmente también comercializa productos 
 <h4>Instalaciones a gran escala</h4>
 <img src="img/metalmecanica/granescala.jpg" alt="">
     
-<h3>Yomel</h3>
+<h3>Yomel</h3> -->
+
+
+
+
+
 
 <p>
 YOMEL S.A. es una pyme familiar fundada en la ciudad de 9 de Julio, Provincia de Buenos Aires, a 265 km de Capital Federal, Argentina.
@@ -242,17 +273,43 @@ Perú, Paraguay, Panamá, Ecuador, Costa Rica, Nicaragua, República Dominicana,
 Australia, Angola, Sudáfrica y Kenia.
 </p>
 
-<h4>La empresa</h4>
+
+<div id="carruseldiv">
+    <div id="carouselyomel" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img id="tamanioimg" src="img/metalmecanica/yomelempresa.jpg" class="d-block  w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img id="tamanioimg" src="img/metalmecanica/yomellogistica.jpg" class="d-block  w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img id="tamanioimg" src="img/metalmecanica/yomeltecnologia.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselyomel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselyomel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+</div>
+
+<!-- <h4>La empresa</h4>
 <img src="img/metalmecanica/yomelempresa.jpg" alt="">
 
 <h4>Logistica</h4>
 <img src="img/metalmecanica/yomellogistica.jpg" alt="">
 
 <h4>tecnología</h4>
-<img src="img/metalmecanica/yomeltecnologia.jpg" alt="">
+<img src="img/metalmecanica/yomeltecnologia.jpg" alt=""> -->
 
 </div>
-  </header>
+ 
     
     
 
