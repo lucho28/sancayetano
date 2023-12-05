@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
+
   <body class="bg-secondary">
     
   <header>
   
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+  <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" id="logo" href="#">
             <img src="img/logo.png" alt="">
@@ -57,7 +58,10 @@
     </header>
     <div class="content">
     
-    <h1>Introducción a la Industria Metalmecánica</h1>
+    <div id="titulos">
+        <h1>Introducción a la Industria Metalmecánica</h1>
+    </div>
+    
 
     <p>
     La metalmecánica es toda aquella actividad que se encarga de proveer a la industria del metal de la maquinaria necesaria para 
@@ -79,9 +83,11 @@
     mayor influencia en el comercio global metalmecánico son México y Brasil.  
     </p>
    
-
-    <h2>Ambito nacional</h2>
-
+    <div id="titulos">
+        <h2>Ambito nacional</h2>
+    </div>
+    
+    
     <p>
     En Argentina la industria metalmecánica reúne más de 24.000 establecimientos productivos distribuidos principalmente entre Buenos Aires, Córdoba, Santa Fe, Mendoza, Entre Ríos y San Luis. Las primeras tres provincias concentran el 90 % del universo de firmas metalmecánico. Casi en su totalidad se trata de pequeñas y medianas empresas de capital nacional (88 %). Dentro de este conjunto, predominan las empresas de hasta nueve ocupados en promedio, con un rol destacado en los procesos de agregación de las economías regionales. Sin embargo, también operan en el sector empresas de una envergadura considerable, con más de 50 empleados.
     Con respecto a la distribución de las empresas del sector, en cada sub-sector3, casi el 70 % de los establecimientos productivos se concentran en la fabricación de productos elaborados de metal, productos metálicos para uso estructural y otros productos, fabricación de partes, piezas, accesorios para vehículos automotores, motores y carrocerías y producción de maquinaria y equipos de uso general.
@@ -90,10 +96,15 @@
 
     La industria metalmecánica representa casi el 20% del empleo industrial, implicando más de 300.000 ocupados en forma directa. Esto la convierte en la segunda industria más generadora de empleo después del sector de alimentos y bebidas. Asimismo, se caracteriza por contar con alta presencia de recursos humanos calificados (en cargos medios más de la mitad son ingenieros, técnicos u operarios calificados).
     </p>
-   
-    <img src="img/metalmecanica/subsector.png" alt="">
-
-    <h2>Cadena de valor</h2>
+    
+    <div id="img">
+        <img src="img/metalmecanica/subsector.png" alt="">
+    </div>
+    
+    <div id="titulos">
+       <h2>Cadena de valor</h2> 
+    </div>
+    
 
 <p>
 Las primeras etapas de la producción metalmecánica generalmente se inician con el agregado de valor a insumos provenientes de la industria siderúrgica y de metales no ferrosos, aun cuando a lo largo de toda la cadena también se incorporan insumos y productos terminados de otros rubros. Posteriormente, el proceso de transformación de los metales básicos puede implicar una o múltiples etapas según el grado de complejidad y valor agregado total. Los procesos básicos más comunes son la fundición, la forja, el trefilado, el extruido y el laminado en frío o caliente.
@@ -114,7 +125,10 @@ Cualquiera sea el caso, a lo largo de toda la producción metalmecánica se obse
 El siguiente esquema integra las distintas etapas de la cadena de valor mencionada anteriormente:
     </p>
 
+    <div id="img">
     <img src="img/metalmecanica/cadenadevalor.png" alt="">
+    </div>
+   
 
     
 
@@ -126,11 +140,20 @@ El siguiente esquema integra las distintas etapas de la cadena de valor menciona
    </p>
 
 
+   <div id="titulos">
+        <h2>Esquema de procesos básicos de la industria.</h2>
+        </div>
+    
 
-    <h2>Esquema de procesos básicos de la industria.</h2>
+    <div id="img">
     <img src="img/metalmecanica/procesosbasicos.png" alt="">
+    </div>
+    
 
-<h2>Descripción de los principales procesos</h2>
+    <div id="titulos">
+        <h2>Descripción de los principales procesos</h2>
+    </div>
+
 
 <h3>Corte:</h3>
 
@@ -173,7 +196,10 @@ la eliminación de grasas y aceites que pueda presentar el metal en su superfici
 entre otros.
 </p>
 
-<h2>Empresas locales del sector</h2>
+<div id="titulos">
+       <h1>Empresas locales del sector</h1> 
+    </div>
+
 
 <h3>Mecano Ganadero</h3>
 
@@ -188,17 +214,18 @@ brindando soluciones para el campo. Actualmente también comercializa productos 
 </p>
 
 <!-- estoy probando un carrusel -->
+
 <div id="carruseldiv">
     <div id="carouselMecano" class="carousel slide" data-bs-ride="true">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img id="tamanioimg" src="img/metalmecanica/sistemacurvo.jpg" class="d-block  w-100" alt="...">
+          <img id="tamanioimg" src="img/metalmecanica/sistemacurvo.jpg" class="d-block  w-100" alt="sistemacurvo">
         </div>
         <div class="carousel-item">
-          <img id="tamanioimg" src="img/metalmecanica/corrales.jpg" class="d-block  w-100" alt="...">
+          <img id="tamanioimg" src="img/metalmecanica/corrales.jpg" class="d-block  w-100" alt="corrales">
         </div>
         <div class="carousel-item">
-          <img id="tamanioimg" src="img/metalmecanica/granescala.jpg" class="d-block w-100" alt="...">
+          <img id="tamanioimg" src="img/metalmecanica/granescala.jpg" class="d-block w-100" alt="granescala">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselMecano" data-bs-slide="prev">
@@ -224,13 +251,10 @@ brindando soluciones para el campo. Actualmente también comercializa productos 
 
 <h4>Instalaciones a gran escala</h4>
 <img src="img/metalmecanica/granescala.jpg" alt="">
-    
-<h3>Yomel</h3> -->
+    -->
 
 
-
-
-
+<h3>Yomel</h3> 
 
 <p>
 YOMEL S.A. es una pyme familiar fundada en la ciudad de 9 de Julio, Provincia de Buenos Aires, a 265 km de Capital Federal, Argentina.

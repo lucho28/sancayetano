@@ -8,6 +8,7 @@ header img{
     width: auto; /* Ajusta el ancho automáticamente para mantener la proporción original de la imagen */
     display: block; /* Elimina el espacio adicional debajo de la imagen */
     margin: auto; /* Centra la imagen horizontalmente */
+    color: #009c94;
 }
 
 /* .bg-secondary{
@@ -26,7 +27,32 @@ header img{
 
 #carruseldiv{
   width: 100vh;
+ 
   margin-left: auto;
+  margin-right: auto;
+}
 
-margin-right: auto;
+p {
+  text-align: justify; /* Justifica el texto en los párrafos. */
+  padding: auto;
+  margin: auto;
+  line-height: 2;
+  font-size: large;
+}
+
+#img {
+  text-align: center;
+}
+
+h1 h2 h3{
+  
+  margin: auto;
+}
+
+#titulos{
+  text-align: center;
+}
+
+#navcolor{
+  color: #009c94;
 }
