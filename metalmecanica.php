@@ -51,9 +51,13 @@
                 </ul>
             </div>
     </nav>
-
+    </div>
+    
     <div class="content">
-
+    
+    <img src="img/metalmecanica/fondo.jpg" class="img-fluid" alt="...">
+    
+  
     <h1>Introducción a la Industria Metalmecánica</h1>
 
     <p>

@@ -9,3 +9,8 @@ header img{
     display: block; /* Elimina el espacio adicional debajo de la imagen */
     margin: auto; /* Centra la imagen horizontalmente */
 }
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}

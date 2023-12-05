@@ -9,7 +9,10 @@
   </head>
   <body class="bg-secondary">
     
-  <header>
+  <header  class="masthead bg-primary text-white text-center "id="about">
+  <div>
+        <img class="masthead-avatar mb-5" src="img/metalmecanica/fondo.jpg" alt="fondo">
+        </div>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
