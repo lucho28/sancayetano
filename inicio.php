@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>San Cayetano</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
   <body class="bg-secondary">
@@ -13,7 +13,7 @@
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="img/logo.png"  alt="" >
+                <img src="img/logo.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" 
             data-bs-toggle="collapse" 
@@ -52,6 +52,7 @@
             </div>
     </nav>
 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iure quas tempore dignissimos debitis quam temporibus aliquid distinctio libero dolorum quis voluptates magnam, beatae veniam facere cupiditate unde tempora expedita.</p>
   </header>
     
     
