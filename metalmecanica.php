@@ -8,13 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
 
-  <body class="bg-wite">
-    
-  <header>
-  
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <header>  
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" id="logo" href="#">
+            <a class="navbar-brand" id="logo" href="index.php">
             <img src="img/logo.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" 
@@ -56,6 +53,9 @@
     </div>
     
     </header>
+  
+  <body class="bg-wite">
+       
     <div class="content">
     
     <div id="titulos">
@@ -240,20 +240,6 @@ brindando soluciones para el campo. Actualmente también comercializa productos 
 
 </div>
 
-
-
-<!-- <h4>Sistema curvo</h4>
-
-<img src="img/metalmecanica/sistemacurvo.jpg" alt="">
-
-<h4>Corrales</h4>
-<img src="img/metalmecanica/corrales.jpg" alt="">
-
-<h4>Instalaciones a gran escala</h4>
-<img src="img/metalmecanica/granescala.jpg" alt="">
-    -->
-
-
 <h3>Yomel</h3> 
 
 <p>
@@ -323,16 +309,7 @@ Australia, Angola, Sudáfrica y Kenia.
 
 </div>
 
-<!-- <h4>La empresa</h4>
-<img src="img/metalmecanica/yomelempresa.jpg" alt="">
 
-<h4>Logistica</h4>
-<img src="img/metalmecanica/yomellogistica.jpg" alt="">
-
-<h4>tecnología</h4>
-<img src="img/metalmecanica/yomeltecnologia.jpg" alt=""> -->
-
-</div>
  
     
     
@@ -340,8 +317,8 @@ Australia, Angola, Sudáfrica y Kenia.
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 
-  <footer>
-        <h3>Centro de desarrollo socio-productivo San Cayetano</h3>
+  <footer class="fixed-bottom footer-dark bg-dark text-light">
+        <h3>Centro de desarrollo Socio Productivo San Cayetano - Cadenas Productivas</h3>
     </footer>
     
 </html>

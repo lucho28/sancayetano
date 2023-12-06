@@ -7,14 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
-  <body class="bg-secondary">
-    
-  <header>
   
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <header>  
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.png"  alt="" >
+            <a class="navbar-brand" id="logo" href="#">
+            <img src="img/logo.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" 
             data-bs-toggle="collapse" 
@@ -52,9 +50,16 @@
                 </ul>
             </div>
     </nav>
-    
     </div>
-  </header>
+    
+    </header>
+  
+  
+  <body class="bg-secondary">
+    
+  
+  
+  
   
 
     
@@ -62,7 +67,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 
-  <footer>
-        <h3>Centro de desarrollo socio-productivo San Cayetano</h3>
+  <footer class="fixed-bottom footer-dark bg-dark text-light">
+        <h3>Centro de desarrollo Socio Productivo San Cayetano - Cadenas Productivas</h3>
     </footer>
 </html>
