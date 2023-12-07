@@ -30,7 +30,7 @@
                         <a class="nav-link" href="metalmecanica.php">Metalmecanica</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Lacteos</a>
+                        <a class="nav-link" href="lacteos.php">Lacteos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Agronegocios</a>
@@ -54,7 +54,7 @@
     
     </header>
   
-  <body class="bg-wite">
+  <body class="bg-white">
        
     <div class="content">
     
@@ -219,13 +219,13 @@ brindando soluciones para el campo. Actualmente también comercializa productos 
     <div id="carouselMecano" class="carousel slide" data-bs-ride="true">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img id="tamanioimg" src="img/metalmecanica/sistemacurvo.jpg" class="d-block  w-100" alt="sistemacurvo">
+          <img id="tamanioimg" src="img/metalmecanica/mecano/sistemacurvo.jpg" class="d-block  w-100" alt="sistemacurvo">
         </div>
         <div class="carousel-item">
-          <img id="tamanioimg" src="img/metalmecanica/corrales.jpg" class="d-block  w-100" alt="corrales">
+          <img id="tamanioimg" src="img/metalmecanica/mecano/corrales.jpg" class="d-block  w-100" alt="corrales">
         </div>
         <div class="carousel-item">
-          <img id="tamanioimg" src="img/metalmecanica/granescala.jpg" class="d-block w-100" alt="granescala">
+          <img id="tamanioimg" src="img/metalmecanica/mecano/granescala.jpg" class="d-block w-100" alt="granescala">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselMecano" data-bs-slide="prev">
@@ -249,52 +249,66 @@ agrícola con marca propia. En este emprendimiento trabajaba un grupo de entre 5
 De a poco se fueron expandiendo, fabricando diferentes modelos y comercializando más productos a lo largo y a lo ancho del país. 
 Se sumaron a ellos nuevos socios que acompañaron este camino de crecimiento y satisfacciones. En el año 78 se empieza a comercializar 
 la marca YOMEL.
+</p>
 
+<p>
 En el año 83 se inaugura la primer oficina comercial y expendio de repuestos en Capital Federal, Argentina. El 15 de Noviembre de 1986 
 se abren las puertas de la planta industrial YOMEL en un predio de 8 hectáreas con una superficie cubierta de 3452 m2. Esto sería el 
 puntapié inicial de una etapa de arduo trabajo y mayor expansión al resto del mundo.
+</p>
 
+<p>
 En el año 1995 Jorge Luis Médica, principal fundador de la compañía, toma control del 100% del paquete accionario de la firma YOMEL. 
 En el año 1996 se materializa la compra de la firma HILCOR, reconocida empresa de maquinaria agrícola a nivel nacional, que había 
 cerrado sus puertas por quiebra años antes, donde Médica diera los primeros pasos de su trayectoria industrial.
+</p>
 
+<p>
 Con esta adquisición se concreta otro sueño más, expandir la capacidad productiva y operativa de la empresa, y lo más importante, 
 se logra recuperar los puestos de trabajo de muchas familias de la ciudad que habían formado parte de aquella empresa. A finales del 
 2019 se pone en funcionamiento una nueva nave industrial de 2500 m2 que nos permitiría seguir expandiendo la capacidad productiva. 
 Junto con instalaciones para oficinas administrativas, investigación y desarrollo, servicio post-venta, entre otros, la superficie 
-cubierta asciende a 7347 m2.
+cubierta asciende a 7347 m2.    
+</p>
 
+<p>
 Esta nave fue equipada con 777 paneles fotovoltaicos, equivalente a 425 KVA instalados, lo que nos permite cubrir más del 70% de 
 nuestra demanda de energía. Con un novedoso sistema que tiene la particularidad de no almacenar en baterías, sino que trabaja en 
 conjunto con el suministro de energía externo. Si el consumo de energía de la planta es menor al que entregan el conjunto de paneles, 
 estos abastecen el total de la demanda y el sobrante de energía generado se inyecta en la red local. Caso contrario, si la demanda 
 excede lo generado por los paneles, el sistema toma lo que falta de la red. Todo este balance se realiza automáticamente por los 
-controladores del equipo de generación.
+controladores del equipo de generación.    
+</p>
 
+<p>
 Esta innovación nos posiciona como empresa pionera de maquinaria agrícola en el autoabastecimiento a través de energías renovables.
 En la actualidad la empresa cuenta con un plantel aproximado de 130 funcionarios y cuenta con un catálogo de más de 120 productos 
 diferentes que abarcan las siguientes líneas: desmalezadoras, fertilizadoras, henificación y forrajes, hojas niveladoras, implementos 
-para fruticultura y horticultura, y agricultura de precisión.
+para fruticultura y horticultura, y agricultura de precisión.    
+</p>
 
-Yomel S.A. cuenta con una red de ventas y servicios con alcance a todos los puntos del país, compuesta por más de 200 concesionarios 
+<p>
+ Yomel S.A. cuenta con una red de ventas y servicios con alcance a todos los puntos del país, compuesta por más de 200 concesionarios 
 ubicados en las principales ciudades de la Argentina.
 En el mercado internacional, la empresa tiene presencia en los siguientes países: Brasil, Chile, Uruguay, Bolivia, Venezuela, 
 Perú, Paraguay, Panamá, Ecuador, Costa Rica, Nicaragua, República Dominicana, Guatemala, México, Colombia, Francia, Nueva Zelanda, 
-Australia, Angola, Sudáfrica y Kenia.
+Australia, Angola, Sudáfrica y Kenia.   
 </p>
+
+
 
 
 <div id="carruseldiv">
     <div id="carouselyomel" class="carousel slide" data-bs-ride="true">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img id="tamanioimg" src="img/metalmecanica/yomelempresa.jpg" class="d-block  w-100" alt="...">
+          <img id="tamanioimg" src="img/metalmecanica/yomel/yomelempresa.jpg" class="d-block  w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img id="tamanioimg" src="img/metalmecanica/yomellogistica.jpg" class="d-block  w-100" alt="...">
+          <img id="tamanioimg" src="img/metalmecanica/yomel/yomellogistica.jpg" class="d-block  w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img id="tamanioimg" src="img/metalmecanica/yomeltecnologia.jpg" class="d-block w-100" alt="...">
+          <img id="tamanioimg" src="img/metalmecanica/yomel/yomeltecnologia.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselyomel" data-bs-slide="prev">

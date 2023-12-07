@@ -30,7 +30,7 @@
                         <a class="nav-link" href="metalmecanica.php">Metalmecanica</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Lacteos</a>
+                        <a class="nav-link" href="lacteos.php">Lacteos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Agronegocios</a>
