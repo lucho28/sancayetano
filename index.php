@@ -9,7 +9,9 @@
   </head>
   
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
                     
         <a class="navbar-brand" id="logo" href="#">
@@ -23,7 +25,11 @@
             </button>
             <div class="collapse navbar-collapse" id="menu">
 
+<<<<<<< HEAD
             <ul class="navbar-nav md-auto">
+=======
+                <ul class="navbar-nav md-auto">
+>>>>>>> 830478adca1f3ec1d8bd3677813185a5499b5363
                     <li class="nav-item">
                         <a class="nav-link active" href="index.php">Inicio</a>
                     </li>
@@ -49,11 +55,17 @@
                         <a class="nav-link" href="#">Comercializacion de vehiculos</a>
                     </li>
                 </ul>
+<<<<<<< HEAD
             
             </div>
+=======
+                </div>
+>>>>>>> 830478adca1f3ec1d8bd3677813185a5499b5363
 
         </div>
     </nav>
+            
+            
   </header>
   <div>
 
