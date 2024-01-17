@@ -23,14 +23,47 @@
             </button>
             <div class="collapse navbar-collapse" id="menu">
 
-                <?php include("header.php") ?>
+            <ul class="navbar-nav md-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.php">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="metalmecanica.php">Metalmecanica</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lacteos.php">Lacteos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Agronegocios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Multinegocios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hilados y bolsas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Refrigeracion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Comercializacion de vehiculos</a>
+                    </li>
+                </ul>
             
             </div>
 
         </div>
     </nav>
   </header>
-  
+  <div>
+
+    
+  </header>
+    
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iure quas tempore dignissimos debitis quam temporibus aliquid distinctio libero dolorum quis voluptates magnam, beatae veniam facere cupiditate unde tempora expedita.</p>
+
+<h1> QUE ONDA !!</h1>
+</div>
   
   
   <body class="bg-secondary">
@@ -46,6 +79,6 @@
   </body>
 
   <footer class="fixed-bottom footer-dark bg-dark text-light">
-        <h3>Centro de desarrollo Socio Productivo San Cayetano - Cadenas Productivas</h3>
+        <h3>© 2024 | Nueve de Julio - Municipalidad - Centro de Desarrollo Socio Productivo San Cayetano </h3>
     </footer>
 </html>
