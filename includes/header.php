@@ -5,7 +5,7 @@
           <div class="container-fluid">
                       
           <a class="navbar-brand" id="logo" href="#">
-              <img src="img/logo_san_cayetano.png" alt="">
+              <img src="images/logo_san_cayetano.jpg" alt="">
               </a>
               <button class="navbar-toggler" type="button" 
               data-bs-toggle="collapse" 
@@ -20,7 +20,7 @@
                           <a class="nav-link active" href="index.php">Inicio</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="metalmecanica.php">Metalmecanica</a>
+                          <a class="nav-link" href="metal.php">Metalmecanica</a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="lacteos.php">Lacteos</a>
