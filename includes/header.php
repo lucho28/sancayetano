@@ -5,7 +5,7 @@
           <div class="container-fluid">
                       
           <a class="navbar-brand" id="logo" href="#">
-              <img src="img/logo.png" alt="">
+              <img src="img/logo_san_cayetano.png" alt="">
               </a>
               <button class="navbar-toggler" type="button" 
               data-bs-toggle="collapse" 
