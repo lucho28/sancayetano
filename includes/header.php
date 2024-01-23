@@ -1,11 +1,8 @@
 <header>
-    
-
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-          <div class="container-fluid">
-                      
+    <div class="container-fluid">                 
           <a class="navbar-brand" id="logo" href="#">
-              <img src="images/logo_san_cayetano.jpg" alt="">
+              <img src="images/logo.png" alt="" >
               </a>
               <button class="navbar-toggler" type="button" 
               data-bs-toggle="collapse" 
@@ -13,38 +10,47 @@
               aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="menu">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
   
                   <ul class="navbar-nav md-auto">
                       <li class="nav-item">
-                          <a class="nav-link active" href="index.php">Inicio</a>
+                          <a class="nav-link" href="index.php">INICIO</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="metal.php">Metalmecanica</a>
+                          <a class="nav-link" href="#">¿QUIENES SOMOS?</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="lacteos.php">Lacteos</a>
+                          <a class="nav-link" href="#">CAPACITACION</a>
                       </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Agronegocios</a>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        CADENAS PRODUCTIVAS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="metalmecanica.php">METALMECANICA</a>
+                            <a class="dropdown-item" href="#">LACTEOS</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>    
                       </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Multinegocios</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Hilados y bolsas</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Refrigeracion</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Comercializacion de vehiculos</a>
-                      </li>
+                      
                   </ul>
-                  </div>
+                    
+                    
+                    
+               
   
-          </div>
+            </div>
+            <div class="ml-auto d-flex">
+                <form class="my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                </form>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </div>
+        </div>
       </nav>
               
               
-    </header>
+</header>
