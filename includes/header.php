@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <div class="container-fluid">                 
-          <a class="navbar-brand" id="logo" href="#">
+          <a class="navbar-brand" id="logo" href="index.php">
               <img src="images/logo.png" alt="" >
               </a>
               <button class="navbar-toggler" type="button" 
@@ -30,9 +30,11 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="metalmecanica.php">METALMECANICA</a>
-                            <a class="dropdown-item" href="#">LACTEOS</a>
+                            <a class="dropdown-item" href="lacteos.php">LACTEOS</a>
+                            <!--
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Something else here</a>
+                            -->
                         </div>    
                       </li>
                       

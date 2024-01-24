@@ -1,18 +1,23 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>San Cayetano</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
-
-
   
-  <body class="bg-white">
-       
-    <div class="content">
+  <body>
+    
+
+    <?php include 'includes/header.php'; ?>
+
+    <section>
+<div class="content">
     
     <div id="titulos">
         <h1>Introducción a la Industria Metalmecánica</h1>
@@ -54,7 +59,7 @@
     </p>
     
     <div id="img">
-        <img src="img/metalmecanica/subsector.png" alt="">
+        <img src="images/metalmecanica/subsector.png" alt="">
     </div>
     
     <div id="titulos">
@@ -82,7 +87,7 @@ El siguiente esquema integra las distintas etapas de la cadena de valor menciona
     </p>
 
     <div id="img">
-    <img src="img/metalmecanica/cadenadevalor.png" alt="">
+    <img src="images/metalmecanica/cadenadevalor.png" alt="">
     </div>
    
 
@@ -102,7 +107,7 @@ El siguiente esquema integra las distintas etapas de la cadena de valor menciona
     
 
     <div id="img">
-    <img src="img/metalmecanica/procesosbasicos.png" alt="">
+    <img src="images/metalmecanica/procesosbasicos.png" alt="">
     </div>
     
 
@@ -175,13 +180,13 @@ brindando soluciones para el campo. Actualmente también comercializa productos 
     <div id="carouselMecano" class="carousel slide" data-bs-ride="true">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img id="tamanioimg" src="img/metalmecanica/mecano/sistemacurvo.jpg" class="d-block  w-100" alt="sistemacurvo">
+          <img id="tamanioimg" src="images/metalmecanica/mecano/sistemacurvo.jpg" class="d-block  w-100" alt="sistemacurvo">
         </div>
         <div class="carousel-item">
-          <img id="tamanioimg" src="img/metalmecanica/mecano/corrales.jpg" class="d-block  w-100" alt="corrales">
+          <img id="tamanioimg" src="images/metalmecanica/mecano/corrales.jpg" class="d-block  w-100" alt="corrales">
         </div>
         <div class="carousel-item">
-          <img id="tamanioimg" src="img/metalmecanica/mecano/granescala.jpg" class="d-block w-100" alt="granescala">
+          <img id="tamanioimg" src="images/metalmecanica/mecano/granescala.jpg" class="d-block w-100" alt="granescala">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselMecano" data-bs-slide="prev">
@@ -258,13 +263,13 @@ Australia, Angola, Sudáfrica y Kenia.
     <div id="carouselyomel" class="carousel slide" data-bs-ride="true">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img id="tamanioimg" src="img/metalmecanica/yomel/yomelempresa.jpg" class="d-block  w-100" alt="...">
+          <img id="tamanioimg" src="images/metalmecanica/yomel/yomelempresa.jpg" class="d-block  w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img id="tamanioimg" src="img/metalmecanica/yomel/yomellogistica.jpg" class="d-block  w-100" alt="...">
+          <img id="tamanioimg" src="images/metalmecanica/yomel/yomellogistica.jpg" class="d-block  w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img id="tamanioimg" src="img/metalmecanica/yomel/yomeltecnologia.jpg" class="d-block w-100" alt="...">
+          <img id="tamanioimg" src="images/metalmecanica/yomel/yomeltecnologia.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselyomel" data-bs-slide="prev">
@@ -280,19 +285,25 @@ Australia, Angola, Sudáfrica y Kenia.
 </div>
 
 
- 
-    
-    
-
+</section> 
+  
+     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+    <!--
+    <?php include 'includes/footer.php'; ?>
+    -->
   </body>
 
-  <footer class="fixed-bottom footer-dark bg-dark text-light">
-        <h3>Centro de desarrollo Socio Productivo San Cayetano - Cadenas Productivas</h3>
-    </footer>
-    
-</html>
-    
+  
+  
+
+  </html>
+
+
+
+
+
 
 
 

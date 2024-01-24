@@ -1,60 +1,22 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>San Cayetano</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
-
-  <header>  
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" id="logo" href="index.php">
-            <img src="img/logo.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" 
-            data-bs-toggle="collapse" 
-            data-bs-target="#menu" aria-controls="navbarSupportedContent" 
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="navbar-nav md-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.php">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="metalmecanica.php">Metalmecanica</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="lacteos.php">Lacteos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Agronegocios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Multinegocios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Hilados y bolsas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Refrigeracion</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Comercializacion de vehiculos</a>
-                    </li>
-                </ul>
-            </div>
-    </nav>
-    </div>
-    
-    </header>
   
-  <body class="bg-white">
+  <body>
+    
+
+    <?php include 'includes/header.php'; ?>
+
+    <section>
        
     <div class="content">
     
@@ -82,7 +44,7 @@
     </p>
 
     <div id="img">
-        <img src="img/lacteos/litros.png" alt="">
+        <img src="images/lacteos/litros.png" alt="">
     </div>
 
     <p>
@@ -233,7 +195,7 @@
     </p>
 
     <div id="img">
-        <img src="img/lacteos/distritambo.jpg" alt="">
+        <img src="images/lacteos/distritambo.jpg" alt="">
     </div>
 
     <p>
@@ -282,7 +244,7 @@
     </p>
 
     <div id="img">
-        <img src="img/lacteos/estratificacion_empresas.jpg" alt="">
+        <img src="images/lacteos/estratificacion_empresas.jpg" alt="">
     </div>
 
     <p>
@@ -367,19 +329,20 @@
     Se trata de Alejandro Mulcahy, titular de Estancia Las Chicas, quien junto a su esposa Silvina, que es médica veterinaria, promovieron la 
     automatización de su tambo con más de 50 años de historia.    
     </p>
+
 <!-- estoy probando un carrusel -->
 
 <div id="carruseldiv">
     <div id="carouselLasChicas" class="carousel slide" data-bs-ride="true">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img id="tamanioimg" src="img/lacteos/laschicas/slider1.jpg" class="d-block  w-100" alt="sistemacurvo">
+          <img id="tamanioimg" src="images/lacteos/laschicas/slider1.jpg" class="d-block  w-100" alt="sistemacurvo">
         </div>
         <div class="carousel-item">
-          <img id="tamanioimg" src="img/lacteos/laschicas/slider2.jpg" class="d-block  w-100" alt="corrales">
+          <img id="tamanioimg" src="images/lacteos/laschicas/slider2.jpg" class="d-block  w-100" alt="corrales">
         </div>
         <div class="carousel-item">
-          <img id="tamanioimg" src="img/lacteos/laschicas/slider3.jpg" class="d-block w-100" alt="granescala">
+          <img id="tamanioimg" src="images/lacteos/laschicas/slider3.jpg" class="d-block w-100" alt="granescala">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselLasChicas" data-bs-slide="prev">
@@ -430,13 +393,13 @@ cadenas y supermercados.
     <div id="carouselAurora" class="carousel slide" data-bs-ride="true">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img id="tamanioimg" src="img/lacteos/aurora/slider1.jpg" class="d-block  w-100" alt="...">
+          <img id="tamanioimg" src="images/lacteos/aurora/slider1.jpg" class="d-block  w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img id="tamanioimg" src="img/lacteos/aurora/slider2.jpg" class="d-block  w-100" alt="...">
+          <img id="tamanioimg" src="images/lacteos/aurora/slider2.jpg" class="d-block  w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img id="tamanioimg" src="img/lacteos/aurora/slider3.jpg" class="d-block w-100" alt="...">
+          <img id="tamanioimg" src="images/lacteos/aurora/slider3.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselAurora" data-bs-slide="prev">
@@ -479,13 +442,13 @@ ciudad de Junín hacia el noroeste.
     <div id="carouselBlanqueada" class="carousel slide" data-bs-ride="true">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img id="tamanioimg" src="img/lacteos/blanqueada/slider1.jpg" class="d-block  w-100" alt="...">
+          <img id="tamanioimg" src="images/lacteos/blanqueada/slider1.jpg" class="d-block  w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img id="tamanioimg" src="img/lacteos/blanqueada/slider2.jpg" class="d-block  w-100" alt="...">
+          <img id="tamanioimg" src="images/lacteos/blanqueada/slider2.jpg" class="d-block  w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img id="tamanioimg" src="img/lacteos/blanqueada/slider3.jpg" class="d-block w-100" alt="...">
+          <img id="tamanioimg" src="images/lacteos/blanqueada/slider3.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselBlanqueada" data-bs-slide="prev">
@@ -500,15 +463,18 @@ ciudad de Junín hacia el noroeste.
 
 </div>
 
- 
-    
-    
-
+</section> 
+  
+     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+    <!--
+    <?php include 'includes/footer.php'; ?>
+    -->
   </body>
 
-  <footer class="fixed-bottom footer-dark bg-dark text-light">
-        <h3>Centro de desarrollo Socio Productivo San Cayetano - Cadenas Productivas</h3>
-    </footer>
-    
-</html>
+  
+  
+
+  </html>
+
